@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Acme', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Press Start 2P', cursive; */
+body{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, #01C1BC 65%, #d4cdc9 35%) ;
+}
+button{
+    margin-left: 658px;
+    color: #DE0D0D;
+    font-size: 70px;
+    background: #01C1BC;
+    border: none;
+    box-shadow: grey;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.circulo{
+    background: grey;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.personaje{
+    width: 500px;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    color: #005751;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.raya-atras{
+    position: absolute;
+    background: #6E706F;
+    /* border: 2px solid; */
+    width: 500px;
+    height: 22px;
+    /* margin-left: 500px; */
+    margin-top: 75px;
+    /* position: relative; */
+    
+}
+.raya{
+    background: #DE0D0D;
+    /* border: 2px solid; */
+    width: 866px;
+    height: 6px;
+    margin-left: 500px;
+}
+.container-image img{
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    -webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    -ms-filter: grayscale(80%);
+    -o-filter: grayscale(80%);
+    filter: grayscale(80%);
+    
+}
+.container-image{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    background: #01C1BC;
+}
+
+
+/* textos */
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.text h2{
+    color: #9A0A0B;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+.text p{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: #044440;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* media query */
+ @media screen and (max-width: 414px){
+    .raya-atras{
+        width: 120px;
+        height: 18px;
+        margin-top: 80px;      
+    }
+    .raya{
+        width: 312px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    button{
+        margin-left: 181px;
+        font-size: 55px;
+        margin-top: 10px;
+    }
+    .container-image img{
+        width: 160px;
+        margin-bottom: 10px;
+    }
+    .personaje{
+        width: 200px;
+        font-size: 30px;
+        margin-top:10px;
+        margin-left: 50px;
+    }
+    .text{
+        width: 80%;
+    }
+ }
