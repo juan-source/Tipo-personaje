@@ -112,7 +112,7 @@ button{
         margin-top: 80px;      
     }
     .raya{
-        width: 312px;
+        width: 305px;
         margin-left: 100px;
         margin-top: 10px;
     }
@@ -122,6 +122,7 @@ button{
         margin-top: 10px;
     }
     .container-image img{
+        margin-top: 110px;
         width: 160px;
         margin-bottom: 10px;
     }
@@ -133,5 +134,10 @@ button{
     }
     .text{
         width: 80%;
+    }
+    body{
+        width: 100%;
+        height: 600px;
+        background: linear-gradient(180deg, #01C1BC 65%, #d4cdc9 35%) ;
     }
  }
