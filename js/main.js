@@ -4,7 +4,7 @@ function send(){
     console.log(valor)
    
     document.getElementById('image').innerHTML=`
-    <img src="./images/captura${valor}.png" class="images">`
+    <img src="fotos/captura${valor}.png" class="images">`
     if(valor==1){
         document.getElementById('text').innerHTML=`
         <h2>ULLOA - alias  uy Mi Loco!</h2>
