@@ -1,7 +1,7 @@
 
 function send(){
     var valor = Math.floor((Math.random()*16)+1)
-    console.log(valor)
+    // console.log(valor)
    
     document.getElementById('image').innerHTML=`
     <img src="fotos/captura${valor}.png" class="images">`
